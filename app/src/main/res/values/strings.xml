@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Horizontal Text Arragement</string>
+    <string name="text_good">Good</string>
+    <string name="text_worst">Worst</string>
+    <string name="text_bad">Bad</string>
+    <string name="text_intermediate">Intermediate</string>
+    <string name="btn_remove_worst">Remove Worst</string>
+    <string name="text_wrap_title">The Good Non-symmetrical Layout</string>
+    <string name="text_normal_title">The Bad Symmetrical Layout</string>
+</resources>
