@@ -34,10 +34,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn_constraint_remove.setOnClickListener {
-            val isVisible = txt_worst_constraint.visibility == View.VISIBLE
-            TransitionManager.beginDelayedTransition(constraint_layout)
-            txt_worst_constraint.visibility =   if (isVisible) View.GONE
-                                                else View.VISIBLE
+            if (txt_worst_constraint.visibility == View.VISIBLE) {
+                txt_worst_constraint.visibility = View.GONE
+            } else {
+                txt_worst_constraint.visibility = View.VISIBLE
+            }
         }
     }
 }
